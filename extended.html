@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended Search</title>
+    <style>
+        .link {
+            float: right;
+            margin-right: 20px;
+        }
+        .ext {
+    
+        }
+        td {
+            text-align: left;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="https://google.com/search">
+            <a class="link" href="index.html">Go back to main search page</a>
+            <table>
+                <tr>
+                    <td class="cell_text">Знайти сторінки із… «усіма цими словами»: </td>
+                    <td class="ext"><input name="as_q" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="cell_text">Знайти сторінки з… «саме цим словом або фразою»: </td>
+                    <td class="ext"><input name="as_epq" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="cell_text">Знайти сторінки з… «будь-яким із цих слів»: </td>
+                    <td class="ext"><input name="as_oq" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="cell_text">Знайти сторінки з… «жодне з цих слів»: </td>
+                    <td class="ext"><input name="as_eq" type="text"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button>Send your request</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
